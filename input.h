@@ -3,5 +3,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-void input_formula (char **formula);
-#endif 
+int if_operand (char elem);
+int if_operator (char elem);
+int input_formula (char **formula, int *operand_counter, int *operator_counter);
+#endif
